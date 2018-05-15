@@ -1,0 +1,167 @@
+body {
+	width: 100%;
+	margin: 0 auto;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+	margin: 25px;
+}
+
+header img {
+	height: 110px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+nav {
+	margin-top: 10px;
+	background-color: #2D4B1E;
+	padding: 1px;
+	margin-bottom: 5px;
+}
+
+nav ul {
+	display: flex;
+	width: 100%;
+	text-decoration: none;
+	justify-content: center;
+	margin-left: -38px;
+}
+
+nav ul li {
+	background-color: #FFF;
+	border-radius: 8px;
+	list-style: none;
+	text-align: center;
+	flex-grow: 1;
+	padding-top: 5px;
+	margin: 0 30px;
+	max-width: 200px;
+	padding: 4px;
+}
+
+li a {
+	text-decoration: none;
+	font-size: 18px;
+	text-align: center;
+}
+
+.parkContainer {
+	display: ;
+}
+
+.parkContainer img {
+	display: inline;
+	margin: 20px;
+	
+}
+
+.hpParkNandD {
+	display: inline-block;
+	max-width: 60%;
+	vertical-align: top;
+	margin-top: 20px;
+}
+
+.hpParkName {
+	display: inline;
+	font-size: 24px;
+	font-weight: 400;
+	margin: 5px;
+	padding-bottom: 8px;
+}
+
+.hpParkDescription {
+	padding-top: 5px;
+	margin-left: 5px;
+}
+
+.parkDetailsH1 {
+	text-align: center;
+}
+
+.parkDetailContainer {
+	margin: 0 90px;
+	
+}
+
+.parkDetailImg {
+	width: 40%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.detailParkName {
+	text-align: center;
+}
+
+.weatherGrid {
+	display: grid;
+	grid-template-columns: auto auto auto auto auto;
+}
+
+.today {
+	text-align: center;
+	margin-top: 15px;
+}
+
+.todaysTemp {
+	text-align: center;
+}
+
+.weeksWeather {
+	text-align: center;
+}
+
+.weeksWeatherImage {
+	width: 75%;
+	margin-top: 156px;
+}
+
+.surveyInputContainer {
+	margin: 30px;
+}
+
+.favParkInput {
+	display: block;
+	margin: 5px;
+}
+
+.yourEmail {
+	display: block;
+	margin: 5px;
+}
+
+.residence {
+	display: block;
+	margin: 5px;
+}
+
+.activityInput {
+	display: block;
+	margin: 5px;
+}
+
+.topParksH1 {
+	text-align: center;
+}
+
+.surveyContainer {
+	margin: 0 100px;
+}
+
+.resultsParkName {
+	display: inline;
+	margin-right: 20px;
+	font-size: 26px;
+}
+
+.surveyContainer th {
+	font-size: 24px;
+	text-align: left;
+	padding-bottom: 8px;
+}
